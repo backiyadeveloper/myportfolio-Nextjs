@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Navebar() {
   return (
     <div>
-      <nav className="bg-sky-800 text-gray-50 flex gap-5 justify-end items-center px-5 h-15">
+      <nav className="bg-sky-800 text-lg text-gray-50 flex gap-5 justify-end items-center px-5 h-15 text-base">
         <Link href="/" className="link-underline">Home</Link>
         <Link href="/project" className="link-underline">Projects</Link>
         <Link href="/resume" className="link-underline">Resume</Link>

@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body >
+      <body className="leading-loose mi-h-screen bg-gray-100">
         <Navebar/>
         {children}
         <Footer></Footer>
