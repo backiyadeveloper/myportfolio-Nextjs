@@ -26,7 +26,7 @@ export default function HomePage() {
             <div className="bg-gray-100 md:basis-60  md:min-w-60 p-15 sm:min-w-80 border-rounded shadow-lg rounded-xl">
               <h2 className="text-center">Frontend</h2>
               <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Reactjs,redux</p>
-              <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Davascrip</p>
+              <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Javascript</p>
               <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Nextjs</p>
               <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Html,Css</p>
               <p className="flex gap-2"><img src="/check.png" alt="" className="h-4 w-4 self-center"/>Bootstrap,Tailwid</p>
