@@ -22,7 +22,7 @@ export default function ResumePage() {
       </button>
     
     </div>
-    <div className="flex justify-center h-auto "> 
+    <div className="flex justify-center h-auto container"> 
         <div className="bg-[url('/resume.png')] min-w-300 min-h-400 bg-no-repeat shadow-xl -mt-20"></div>
       </div>
   </div>
