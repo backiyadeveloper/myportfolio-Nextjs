@@ -18,14 +18,14 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div className="flex justify-center mt-10 ">
+      <div className="flex justify-center my-10 ">
         <div className="basis-180 rounded-xl shadow-xl p-10">
           <h2 className="text-center text-lg p-10">Get In Touch</h2>
           <div>
             <form action="">
-              <div className="flex  gap-5">
-              <input className="border-2 px-5 py-1 basis-90 rounded-xl outline-none" type="text" placeholder="Name" />
-              <input className="border-2 px-5 basis-90 rounded-xl outline-none" type="text" placeholder="Email" />
+              <div className="flex sm:flex-row flex-col gap-5">
+              <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Name" />
+              <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Email" />
               </div>
               <div className="flex ">
                 <textarea
