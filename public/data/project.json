@@ -1,21 +1,21 @@
 [
     {
         "id": 1,
-        "title": "Expense Tracker",
+        "title": "Personal Expense Tracker System",
         "description": "A full-stack web app to manage personal finances, track income/expenses, and generate reports.",
         "techStack": ["Java", "Spring Boot", "MySQL", "Reactjs","Type script","docker"],
         "image": "/expense.jpg"
     },
     {
         "id": 2,
-        "title": "Atal",
+        "title": "Obopay – Mobile Payment Platform",
         "description": "Obopay is a mobile payment and digital wallet platform designed to facilitate secure and seamless financial transactions such as money.",
         "techStack": ["Java", "Spring Boot", "Psql", "Reactjs","typescript"],
         "image": "/atal.avif"
     },
     {
         "id": 3,
-        "title": "Obopay",
+        "title": "ATAL(advance technology and auto launching)",
         "description": "ATAL is a cloud orchestration platform that allows users to launch and unlaunch their projects across multiple regions.",
         "techStack": ["Java", "Spring Boot", "Psql", "Reactjs","typescript"],
         "image": "/obopay.jpg"
