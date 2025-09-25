@@ -10,7 +10,8 @@ export namespace Resume{
         year:string,
         city:string,
         skils:string,
-        skills:{frontend:string,
+        skills:{
+                  frontend:string,
                   feskills:[],
                   backend:string,
                   beskills:[],
@@ -21,6 +22,11 @@ export namespace Resume{
         companyname:string,
         role:string,
         experience:string,
-        workcity:string
+        workcity:string,
+         projects:string,
+        project:[{id:number,
+                    title:string,
+                    description:string
+                }]
     }
 }
