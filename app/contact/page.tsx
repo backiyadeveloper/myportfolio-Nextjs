@@ -24,17 +24,17 @@ export default function ContactPage() {
           <div>
             <form action="">
               <div className="flex sm:flex-row flex-col gap-5">
-              <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Name" />
-              <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Email" />
+                <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Name" />
+                <input className="border-2 px-5 py-1 sm:basis-90 rounded-xl outline-none" type="text" placeholder="Email" />
               </div>
               <div className="flex ">
                 <textarea
                   className="basis-180 px-5 mt-10 border-2 py-1 rounded-xl outline-none"
-                  placeholder="Message"
-                ></textarea>
+                  placeholder="Message">
+                </textarea>
               </div>
               <div className="flex mt-10">
-              <button className="bg-sky-500 basis-180 rounded-full p-2 text-white text-lg ">Submit</button>
+                <button className="bg-sky-500 basis-180 rounded-full p-2 text-white text-lg ">Submit</button>
               </div>
             </form>
           </div>
