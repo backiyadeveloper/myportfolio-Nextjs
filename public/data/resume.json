@@ -1,0 +1,26 @@
+[
+    {
+        "name":"Backiyalakshmi.R",
+        "personaldetails":["backiya3011@gmail.com",8870239537,"virudhunagar","https://github.com/backiyadeveloper"],
+        "summary":"Summary",
+        "details":"Versatile Full Stack Developer with practical experience in building scalable and efficient web applications. Skilled in handling both user-facing and server-side development tasks, with a strong focus on seamless integration and reliable deployment. Seeking to contribute my end-to-end development abilities to a collaborative and growth-focused team.",
+        "Education":"Education",
+        "clgname":"BE-cse, AAA college of engineering and technology",
+        "cgpa": "82 cgpa",
+        "year":"2019 – 2023",
+        "city":"Sivakasi",
+        "skils":"Skills",
+        "skills":{"frontend":"Frontend",
+                  "feskills":["html","css","javascript","typescript","bootstrap","reactjs","nextjs","tailwind"],
+                  "backend":"Backend",
+                  "beskills":["java","jdbc","springboot"],
+                  "db":"Database",
+                  "dbskills":["mysql","psql"]
+                },
+        "ProfessionalExperience":"Professional Experience",
+        "companyname":"ATDXT Private Limited,",
+        "role":"full stack developer",
+        "experience":"2024 – present",
+        "workcity":"coimbatore"
+    }
+]
