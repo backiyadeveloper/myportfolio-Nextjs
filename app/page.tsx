@@ -1,14 +1,29 @@
+"use client"
 import Image from "next/image";
 import Link from "next/link";
+import { useState } from "react";
+
 
 export default function HomePage() {
+    const [pos, setPos] = useState({ x: 0, y: 0 });
+
     return (
-      <div className="mb-10">
-        <div className="flex flex-col p-10 md:flex-row items-center justify-around gap-5 p-10 bg-sky-500 text-gray-50 sm:flex-col leading-20">
+      <div className="mb-10 "  >
+        <div className="flex flex-col p-10 md:flex-row items-center justify-around gap-5 p-10 bg-sky-500 text-gray-50 sm:flex-col leading-20 " >
           <div className="h-[300px] w-[100%]  sm:basis-1/2 bg-[url('/tools.webp')] bg-cover bg-center"></div>
-          <div className="p-10 sm:basis-1/2 text-justify">
+          <div className="p-10 sm:basis-1/2 text-justify ">
               <p className="text-2xl font-extralight italic">Hello,my name is</p>
-              <h1 className="sm:text-5xl text-3xl italic">R.Backiyalakshmi</h1>
+              <h1 className="sm:text-5xl text-3xl italic flex overflow-hidden">
+                {"R.Backiyalakshmi".split("").map((char, i) => (
+                  <span
+                    key={i}
+                    className="inline-block animate-slideIn "
+                    style={{ animationDelay: `${i * 0.1}s` }}
+                  >
+                    {char}
+                  </span>
+                ))}
+              </h1>
               <p className="text-lg font-semibold">I'm a full-stack developer specialised in frontend and backend development for complex scalable web apps.Want to know how I may help your project? Check out my project case studies and resume. </p>
           </div>
         </div>

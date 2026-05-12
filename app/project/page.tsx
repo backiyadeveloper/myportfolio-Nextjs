@@ -20,7 +20,7 @@ export default function ProgectPage() {
   }
   return (
     <div>
-        <div className="h-50 bg-sky-500  pt-10 pl-10">
+        <div className="animate-[rainbow_5s_infinite] h-50 bg-sky-500  pt-10 pl-10">
           <div className=" text-gray-50 text-5xl font-bold">Projects</div>
         </div>
         <div className="flex mb-10 flex-col items-center md:flex-row gap-5 md:justify-evenly -mt-20 sm:flex-col sm:items-center">
