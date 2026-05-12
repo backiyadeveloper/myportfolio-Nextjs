@@ -25,7 +25,7 @@ export default function ResumePage() {
 
   return (
     <div className="h-auto ">
-      <div className=" flex justify-between bg-sky-500 p-5  pt-10 pb-10 ">
+      <div className="animate-[rainbow_5s_infinite] flex justify-between bg-sky-500 p-5  pt-10 pb-10 ">
         <div className=" text-gray-50 text-5xl font-bold">
           Resume</div>
           <button
